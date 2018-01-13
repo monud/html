@@ -1,0 +1,135 @@
+body{
+	font-family:"Crimson Text", "Times New Roman", sans-serif;
+	background-color:#F2FFFC;
+	font-size:120%;
+	line-height:1.5;
+}
+
+h1 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+h2{
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	clear:both;
+}
+
+
+.titulo-principal {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	clear:right;
+	box-sizing:border-box;
+	width:15%;
+	top:310px;
+	position:relative;
+}
+.imagem,.navegacao-site {
+	float:right;
+	box-sizing:border-box;
+	border-left:10px solid black;
+	border-bottom:10px solid black;
+}
+.imagem{
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+.rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+	clear:both;
+	position:relative;
+	width:100%;
+	bottom:0;
+}
+
+main{
+float:left;
+width:85%;	
+}
+
+main a {
+	color: #851944;
+}
+
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.texto {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+	
+}
+
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.subtitulo-texto {
+	font-size: 30px;
+}
+
+.icones-sociais li {
+	display: inline-block;
+}
+
+nav a {
+	text-transform: lowercase;
+}
+
+.icones-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
+}
+
+blockquote{
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
+}
+
+.github {
+	background-image: url(../img/github.png);
+}
+
+.twitter {
+	background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+	background-image: url(../img/linkedin.png);
+}
